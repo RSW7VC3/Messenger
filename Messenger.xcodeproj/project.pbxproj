@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		60B893A327039CF300FAD98A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B893A227039CF300FAD98A /* AppDelegate.swift */; };
 		60B893A527039CF300FAD98A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B893A427039CF300FAD98A /* SceneDelegate.swift */; };
-		60B893A727039CF300FAD98A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B893A627039CF300FAD98A /* ViewController.swift */; };
+		60B893A727039CF300FAD98A /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B893A627039CF300FAD98A /* ConversationsViewController.swift */; };
 		60B893AA27039CF300FAD98A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B893A827039CF300FAD98A /* Main.storyboard */; };
 		60B893AC27039CF400FAD98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B893AB27039CF400FAD98A /* Assets.xcassets */; };
 		60B893AF27039CF400FAD98A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B893AD27039CF400FAD98A /* LaunchScreen.storyboard */; };
-		60B893BA27039CF500FAD98A /* MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B893B927039CF500FAD98A /* MessengerTests.swift */; };
-		60B893C527039CF500FAD98A /* MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B893C427039CF500FAD98A /* MessengerUITests.swift */; };
+		60B893E52703A61E00FAD98A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B893E42703A61E00FAD98A /* LoginViewController.swift */; };
+		60B893ED2703A65700FAD98A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B893EC2703A65700FAD98A /* RegisterViewController.swift */; };
+		60B893F22703A68600FAD98A /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B893F12703A68600FAD98A /* PhotoViewerViewController.swift */; };
+		60B893F72703A6C800FAD98A /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B893F62703A6C800FAD98A /* VideoPlayerViewController.swift */; };
+		60B893FC2703A6D900FAD98A /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B893FB2703A6D900FAD98A /* NewConversationViewController.swift */; };
+		60B894012703A6FC00FAD98A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B894002703A6FC00FAD98A /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +42,19 @@
 		60B8939F27039CF300FAD98A /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B893A227039CF300FAD98A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60B893A427039CF300FAD98A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		60B893A627039CF300FAD98A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60B893A627039CF300FAD98A /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		60B893A927039CF300FAD98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60B893AB27039CF400FAD98A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60B893AE27039CF400FAD98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60B893B027039CF400FAD98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60B893B527039CF500FAD98A /* MessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60B893B927039CF500FAD98A /* MessengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerTests.swift; sourceTree = "<group>"; };
-		60B893BB27039CF500FAD98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60B893C027039CF500FAD98A /* MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60B893C427039CF500FAD98A /* MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerUITests.swift; sourceTree = "<group>"; };
-		60B893C627039CF500FAD98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B893E42703A61E00FAD98A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		60B893EC2703A65700FAD98A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		60B893F12703A68600FAD98A /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		60B893F62703A6C800FAD98A /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		60B893FB2703A6D900FAD98A /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		60B894002703A6FC00FAD98A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				60B893A127039CF300FAD98A /* Messenger */,
-				60B893B827039CF500FAD98A /* MessengerTests */,
-				60B893C327039CF500FAD98A /* MessengerUITests */,
 				60B893A027039CF300FAD98A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,33 +103,69 @@
 		60B893A127039CF300FAD98A /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
-				60B893A227039CF300FAD98A /* AppDelegate.swift */,
-				60B893A427039CF300FAD98A /* SceneDelegate.swift */,
-				60B893A627039CF300FAD98A /* ViewController.swift */,
-				60B893A827039CF300FAD98A /* Main.storyboard */,
-				60B893AB27039CF400FAD98A /* Assets.xcassets */,
-				60B893AD27039CF400FAD98A /* LaunchScreen.storyboard */,
+				60B893D92703A2FE00FAD98A /* Resources */,
+				60B893D82703A2E900FAD98A /* ViewModels */,
+				60B893D72703A2DB00FAD98A /* Models */,
+				60B893D62703A2C300FAD98A /* Views */,
+				60B893D52703A2B800FAD98A /* Controllers */,
 				60B893B027039CF400FAD98A /* Info.plist */,
 			);
 			path = Messenger;
 			sourceTree = "<group>";
 		};
-		60B893B827039CF500FAD98A /* MessengerTests */ = {
+		60B893D52703A2B800FAD98A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				60B893B927039CF500FAD98A /* MessengerTests.swift */,
-				60B893BB27039CF500FAD98A /* Info.plist */,
+				60B893A627039CF300FAD98A /* ConversationsViewController.swift */,
+				60B893E42703A61E00FAD98A /* LoginViewController.swift */,
+				60B893EC2703A65700FAD98A /* RegisterViewController.swift */,
+				60B893F12703A68600FAD98A /* PhotoViewerViewController.swift */,
+				60B893F62703A6C800FAD98A /* VideoPlayerViewController.swift */,
+				60B893FB2703A6D900FAD98A /* NewConversationViewController.swift */,
+				60B894002703A6FC00FAD98A /* ProfileViewController.swift */,
 			);
-			path = MessengerTests;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		60B893C327039CF500FAD98A /* MessengerUITests */ = {
+		60B893D62703A2C300FAD98A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				60B893C427039CF500FAD98A /* MessengerUITests.swift */,
-				60B893C627039CF500FAD98A /* Info.plist */,
+				60B893DA2703A36400FAD98A /* Storyboards */,
+				60B893AB27039CF400FAD98A /* Assets.xcassets */,
 			);
-			path = MessengerUITests;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60B893D72703A2DB00FAD98A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60B893D82703A2E900FAD98A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		60B893D92703A2FE00FAD98A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60B893A227039CF300FAD98A /* AppDelegate.swift */,
+				60B893A427039CF300FAD98A /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60B893DA2703A36400FAD98A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				60B893A827039CF300FAD98A /* Main.storyboard */,
+				60B893AD27039CF400FAD98A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +298,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60B893A727039CF300FAD98A /* ViewController.swift in Sources */,
+				60B893E52703A61E00FAD98A /* LoginViewController.swift in Sources */,
+				60B893ED2703A65700FAD98A /* RegisterViewController.swift in Sources */,
+				60B893FC2703A6D900FAD98A /* NewConversationViewController.swift in Sources */,
+				60B893A727039CF300FAD98A /* ConversationsViewController.swift in Sources */,
+				60B893F72703A6C800FAD98A /* VideoPlayerViewController.swift in Sources */,
 				60B893A327039CF300FAD98A /* AppDelegate.swift in Sources */,
+				60B894012703A6FC00FAD98A /* ProfileViewController.swift in Sources */,
 				60B893A527039CF300FAD98A /* SceneDelegate.swift in Sources */,
+				60B893F22703A68600FAD98A /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +314,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60B893BA27039CF500FAD98A /* MessengerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +321,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60B893C527039CF500FAD98A /* MessengerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
