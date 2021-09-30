@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>617402063545-402f2r6nu5e06mpg60iehuo675mmhmk1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.617402063545-402f2r6nu5e06mpg60iehuo675mmhmk1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCRevV0b_LZI7uDO7y4T2XZwc8_WN-JznU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>617402063545</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.missouri.Messenger</string>
+	<key>PROJECT_ID</key>
+	<string>messenger-53e9f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>messenger-53e9f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:617402063545:ios:f72db67b083435f1a21968</string>
+</dict>
+</plist>
